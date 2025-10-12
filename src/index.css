@@ -160,4 +160,8 @@ All colors MUST be HSL.
   .animate-fade-in {
     animation: fade-in 0.8s ease-out forwards;
   }
+
+  .scroll-fade-in.visible {
+    opacity: 1 !important;
+  }
 }

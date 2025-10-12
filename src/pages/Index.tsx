@@ -7,8 +7,11 @@ import { InsightsSection } from "@/components/InsightsSection";
 import { PricingSection } from "@/components/PricingSection";
 import { ContactSection } from "@/components/ContactSection";
 import { Toaster } from "@/components/ui/toaster";
+import { useScrollFade } from "@/hooks/useScrollFade";
 
 const Index = () => {
+  useScrollFade();
+  
   return (
     <main className="relative min-h-screen">
       <BlackHoleBackground />
