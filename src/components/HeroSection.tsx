@@ -29,8 +29,8 @@ export const HeroSection = () => {
   const [modalOpen, setModalOpen] = useState(false);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-4 py-20">
-      <div className="rounded-3xl p-8 md:p-12 lg:p-16 max-w-5xl w-full animate-fade-in">
+    <section className="relative flex items-center justify-center px-4 py-20">
+      <div className="rounded-3xl p-8 md:p-12 lg:p-16 max-w-5xl w-full">
         <div className="text-center space-y-8">
           {/* Badge */}
           <div className="inline-flex items-center gap-2 glass rounded-full px-4 py-2 border-glow-cyan">
