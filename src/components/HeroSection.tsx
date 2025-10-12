@@ -29,7 +29,7 @@ export const HeroSection = () => {
   const [modalOpen, setModalOpen] = useState(false);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-4 py-20">
+    <section className="relative min-h-screen flex items-center justify-center px-4 py-20 visible">
       <div className="rounded-3xl p-8 md:p-12 lg:p-16 max-w-5xl w-full animate-fade-in">
         <div className="text-center space-y-8">
           {/* Badge */}

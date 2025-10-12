@@ -74,7 +74,7 @@ export const PricingSection = () => {
 
   return (
     <section id="pricing" className="relative min-h-screen flex items-center justify-center px-4 py-20">
-      <div className="max-w-7xl w-full animate-fade-in opacity-0 transition-opacity duration-1000 scroll-fade-in">
+      <div className="max-w-7xl w-full animate-fade-in">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-mono text-gradient-purple mb-4">
             Choose Your Data Dimension
