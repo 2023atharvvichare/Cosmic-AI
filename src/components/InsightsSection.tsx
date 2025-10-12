@@ -33,8 +33,8 @@ export const InsightsSection = () => {
   };
 
   return (
-    <section id="insights" className="relative flex items-center justify-center px-4 py-20">
-      <div className="rounded-3xl p-8 md:p-12 lg:p-16 max-w-5xl w-full">
+    <section id="insights" className="relative min-h-screen flex items-center justify-center px-4 py-20">
+      <div className="rounded-3xl p-8 md:p-12 lg:p-16 max-w-5xl w-full animate-fade-in opacity-0 transition-opacity duration-1000 scroll-fade-in">
         <h2 className="text-4xl md:text-5xl font-mono text-foreground text-center mb-12">
           Clients Reaching Singularity
         </h2>

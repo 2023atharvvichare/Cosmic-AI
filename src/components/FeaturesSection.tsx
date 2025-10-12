@@ -28,8 +28,8 @@ export const FeaturesSection = () => {
   ];
 
   return (
-    <section id="features" className="relative flex items-center justify-center px-4 py-20">
-      <div className="rounded-3xl p-8 md:p-12 lg:p-16 max-w-6xl w-full">
+    <section id="features" className="relative min-h-screen flex items-center justify-center px-4 py-20">
+      <div className="rounded-3xl p-8 md:p-12 lg:p-16 max-w-6xl w-full animate-fade-in opacity-0 transition-opacity duration-1000 scroll-fade-in">
         <h2 className="text-4xl md:text-5xl font-mono text-gradient-purple text-center mb-16">
           Harnessing the Gravity of True Insight
         </h2>

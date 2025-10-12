@@ -15,16 +15,16 @@ const Index = () => {
   return (
     <main className="relative min-h-screen">
       <BlackHoleBackground />
-      <div className="fixed top-0 left-0 z-50 w-full">
-        <Logo />
-        <Navigation />
-      </div>
+      <Logo />
+      <Navigation />
       
-      <HeroSection />
-      <FeaturesSection />
-      <InsightsSection />
-      <PricingSection />
-      <ContactSection />
+      <div className="relative z-10">
+        <HeroSection />
+        <FeaturesSection />
+        <InsightsSection />
+        <PricingSection />
+        <ContactSection />
+      </div>
 
       <Toaster />
     </main>
